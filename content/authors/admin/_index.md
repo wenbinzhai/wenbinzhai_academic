@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Wenbin Zhai 翟文斌
+title: Wenbin Zhai
 
 # Full name (for SEO)
 first_name: Wenbin
@@ -22,11 +22,11 @@ organizations:
     url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include cybersecurity, wireless sensor networks, and smart contract.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
+  - Wreless Sensor Networks
   - Computational Linguistics
   - Information Retrieval
 
