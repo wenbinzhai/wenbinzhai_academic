@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Alice Wu 吳恩達
+title: Wenbin Zhai 翟文斌
 
 # Full name (for SEO)
-first_name: Alice
-last_name: Wu
+first_name: Wenbin
+last_name: Zhai
 
 # Status emoji
 status:
@@ -18,7 +18,7 @@ role: Professor of Artificial Intelligence
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
+  - name: Nanjing University of Aeronautics and Astronautics
     url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
