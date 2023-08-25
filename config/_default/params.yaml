@@ -8,7 +8,9 @@
 appearance:
   theme_day: minimal
   theme_night: minimal
-  font: minimal
+  font: Rose
+  # Minimal (modern), Classic (original Academic v1 style), Rose (traditional serif), 
+  # Mr Robot (futuristic), Cyberpunk (hacker style), Native: use device fonts for maximum performance
   font_size: L
 
 # SEO
@@ -45,7 +47,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Wenbin Zhai. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
