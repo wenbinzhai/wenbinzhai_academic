@@ -54,7 +54,7 @@ url_pdf: 'Hu-MSN.pdf'
 # url_dataset: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 # url_poster: ''
 # url_project: ''
-# url_slides: ''
+url_slides: 'Hu_MSN_Slides.pptx'
 # url_source: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 # url_video: 'https://youtube.com'
 

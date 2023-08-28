@@ -162,6 +162,29 @@ sections:
   #     # Choose a layout view
   #     view: compact
   #     columns: '2'
+  - block: markdown
+    id: news
+    content:
+      title: Recent News
+      widget: "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
+      headless: true  # This file represents a page section.
+      active: true  # Activate this widget? true/false
+# weight:  3  # Order that this section will appear.
+      subtitle: "[All news>>](/news)"
+      text: |-
+        {{< readfromfile "/content/newslist.dat" 5 >}} 
+    design:
+      columns: 2
+      # {{< readfromfile "/content/newslist.dat" 5 >}} 
+ 
+  # - block: markdown
+  #   content:
+  #     title: Gallery
+  #     subtitle: ''
+  #     text: |-
+  #       {{< gallery album="demo" >}}
+  #   design:
+  #     columns: '1'   
 
   - block: collection
     id: featured
@@ -188,6 +211,7 @@ sections:
     design:
       columns: '2'
       view: citation
+      # list, compact, card, citation, showcase
   - block: portfolio
     id: projects
     content:
@@ -211,6 +235,8 @@ sections:
           tag: Routing Optimization
         - name: Cybersecurity
           tag: Cybersecurity
+        - name: Smart Contracts
+          tag: Smart Contracts
         # - name: Projects
         #   tag: Projects
         # - name: Other
@@ -221,6 +247,21 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
+
+  - block: markdown
+    id: honors
+    content:
+      title: Honors and Awards
+      widget: "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
+      headless: true  # This file represents a page section.
+      active: true  # Activate this widget? true/false
+      share: false
+# weight:  3  # Order that this section will appear.
+      subtitle: "[All honors and awards>>](/honors)"
+      text: |-
+        {{< readfromfile "/content/honorslist.dat" 5 >}} 
+    design:
+      columns: 2
   # - block: markdown
   #   content:
   #     title: Gallery
@@ -245,6 +286,36 @@ sections:
   #     title: Popular Topics
   #   design:
   #     columns: '2'
+
+  - block: people
+    type: landing
+    id: collaborator
+    widget: people
+    headless: true  
+    content:
+      title: Collaborator
+  # Choose which groups/teams of users to display.
+  #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
+      user_groups:
+        # - Principal Investigators
+        - Scholars
+        - Researchers
+        # - Grad Students
+        # - Administration
+        # - Visitors
+        # - Alumni
+      sort_by: Params.last_name
+      sort_ascending: true
+    design:
+      # Show user's social networking links? (true/false)
+      show_social: true
+      # Show user's interests? (true/false)
+      show_interests: false
+      # Show user's role?
+      show_role: true
+      # Show user's organizations/affiliations?
+      show_organizations: true
+
 
   # - block: contact
   #   id: contact

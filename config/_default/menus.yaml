@@ -7,12 +7,15 @@ main:
   - name: Home
     url: '#about'
     weight: 10
+  - name: News
+    url: '#news'
+    weight: 20
   - name: Publications
     url: '#featured'
-    weight: 20
+    weight: 30
   - name: Research
     url: '#projects'
-    weight: 30
+    weight: 40
   # - name: Posts
   #   url: '#posts'
   #   weight: 40
@@ -21,6 +24,12 @@ main:
   #   weight: 50
   # - name: Contact
   #   url: '#contact'
+    # weight: 60
+  - name: Honors and Awards
+    url: '#honors'
+    weight: 50
+  - name: Collaborator
+    url: '#collaborator'
     weight: 60
   - name: Resume
     url: uploads/CV_WenbinZhai.pdf

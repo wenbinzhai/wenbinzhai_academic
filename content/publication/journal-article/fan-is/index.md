@@ -23,7 +23,7 @@ publishDate: "2023-01-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Information Sciences (**IS**)*  [**CORE A**, CCF B, SCI Q1, IF 8.233]"
+publication: "*Information Sciences (**IS**)*  [**CORE A**, CCF B, SCI-Q1, IF 8.233]"
 publication_short: ""
 
 abstract: Due to its wide coverage and strong scalability, spatial crowdsourcing (SC) has become a research hotspot in recent years. In order to assign tasks to closer workers, it is necessary for workers to provide accurate locations to the server. However, it will result in the leakage of the participants’ location privacy. Existing works provide each worker with the same level of location privacy protection, which cannot meet the different privacy requirements of various workers. In addition, most works assume that the tasks are single-location tasks, and do not consider multi-location tasks. In this paper, we propose the Multi-location Task Allocation Problem with personalized location privacy protection (MLTAP). As far as we know, we are the first to study MLTAP. We propose a Multi-location task Allocation framework with Personalized location Privacy-protecting (MAPP). In order to allocate tasks efficiently, we use the R-tree to store workers and minimum bounding rectangle to represent multi-location tasks, thus filtering the unreachable workers for tasks. To better eliminate the adverse effect of location confusion, the SC server sorts candidate workers by the ranking metrics and allocates multi-location tasks efficiently. Finally, we conduct experiments to verify that MAPP has good performance in terms of utility.
@@ -31,8 +31,7 @@ abstract: Due to its wide coverage and strong scalability, spatial crowdsourcing
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Cybersecurity
-- Wireless Sensor Networks
+- Privacy Protection
 featured: false
 
 # links:
