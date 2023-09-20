@@ -38,7 +38,7 @@ url_pdf: "UndergraduateThesis.pdf"
 # url_dataset: '#'
 # url_poster: '#'
 # url_project: ''
-# url_slides: "PostgraduateThesisSlides.pptx"
+url_slides: "UndergraduateThesisSlides.pptx"
 # url_source: '#'
 # url_video: '#'
 
