@@ -20,15 +20,15 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'WenbinZhai''s Homepage'
-    twitter: 'WenbinZhai'
+    description: 'Wenbin Zhai''s Homepage'
+    twitter: 'Wenbin Zhai'
   analytics:
     google_analytics: 'G-DRE1LBFJ3D'
     baidu_tongji: ''
     google_tag_manager: ''
     microsoft_clarity: ''  
   verification:
-    google: ''
+    google: 'QWL_mhA6b9Hr-W2YRR3e1SNOy9rc6N48VYcOIMQT694'
     baidu: ''
 
 # Site header

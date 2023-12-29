@@ -1,5 +1,5 @@
 ---
-title: "Research on Routing Protocol for Multi-hop Unmanned Aerial Vehicle Ad-hoc Networks"
+title: "Research on Routing Protocol for Multi-hop Unmanned Aerial Vehicle Ad-hoc Networks (in Chinese)"
 authors:
 - admin
 date: '2023-06-17T00:00:00Z'
@@ -15,7 +15,7 @@ publishDate: '2023-06-17T00:00:00Z'
 publication_types: ["7"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Postgraudate Thesis of Nanjing University of Aeronautics and Astronautics"
+publication: "*Postgraudate Thesis of Nanjing University of Aeronautics and Astronautics* [**Outstanding Thesis**]"
 publication_short: ""
 
 abstract: With the development of technologies such as sensors and wireless communications, Unmanned Aerial Vehicle (UAV) ad-hoc networks have been widely used in military and civilian applications. Routing technology is the basic premise for data communication, information sharing, and cluster collaboration of UAV networks, which needs to take both performance and security into account. However, many unique characteristics of UAV networks, such as high-speed mobility of nodes, high dynamics of network topology, and sparse distribution of nodes, pose severe challenges to the design of routing protocols. In this paper, the routing technology for multi-hop UAV networks is studied from the perspective of holistic cross-layer optimization.

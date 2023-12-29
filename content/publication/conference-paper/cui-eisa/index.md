@@ -28,7 +28,7 @@ publishDate: '2022-10-29T00:00:00Z'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: In *International Symposium on Emerging Information Security and Applications (**EISA 2022**)*
+publication: In *2022 International Symposium on Emerging Information Security and Applications (**EISA 2022**)*
 publication_short:
 
 abstract: In wireless sensor networks (WSNs), users often submit spatial range queries to obtain statistical information of an area in the network, such as the average temperature and the maximum humidity of an area. The existing privacy-preserving aggregation query algorithms depend on pre-established network topology, and maintaining network topology requires lots of energy. In addition, these algorithms assume that the nodes between the communication radius can perform perfect communication, which is impractical. Aiming to solve these problems, this paper proposes a link aware aggregation query algorithm with privacy-preserving capability, that is, Reliable Spatial Range Data Aggregation Query with Privacy-Preserving (RPSAQ). RPSAQ first divides the query area into multiple sub-areas, and each sub-area is divided into multiple grids according to the network topology and link quality. Under the condition of ensuring node-perceived data privacy, RPSAQ collects sensing data of nodes by traversing the grids in the query area, which not only reduces the packet loss rate and energy consumption of sensor nodes, but also ensures the sensing data’s privacy. The experiment results show that RPSAQ outperforms the existing privacy protection algorithms in terms of packet transmission, energy consumption and query result quality.

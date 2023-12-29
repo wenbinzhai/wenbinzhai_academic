@@ -1,5 +1,5 @@
 ---
-title: "Design and Implementation of a Method for the Safe Storage of Chinese Medicine Data based on Homomorphic Encryption"
+title: "Design and Implementation of a Method for the Safe Storage of Chinese Medicine Data based on Homomorphic Encryption (in Chinese)"
 authors:
 - admin
 date: '2020-06-30T00:00:00Z'
@@ -15,7 +15,7 @@ publishDate: '2020-06-30T00:00:00Z'
 publication_types: ["7"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Undergraudate Thesis of Nanjing University of Chinese Medicine"
+publication: "*Undergraudate Thesis of Nanjing University of Chinese Medicine* [**Outstanding Thesis of Jiangsu Province**]"
 publication_short: ""
 
 abstract: With the explosive growth of traditional Chinese medicine data and the widespread use of cloud computing, medical institutions have gradually moved the storage and analysis of medical data from the local to the cloud. Because medical data has extremely high economic and medical value, and contains a large amount of patients’ privacy information, most medical institutions must encrypt data before storing it in the cloud. However, we cannot directly operate the encrypted data by using the traditional encryption method, and the data must be decrypted to obtain the plain text before analysis and operation, which cannot guarantee the security and privacy of the data. This paper proposes a method for storing Chinese medicine data based on homomorphic encryption, including encryption, decryption and retrieval algorithms, using plaintext slots to merge after packet encryption, merge after packet decryption and perform ciphertext search on packets, based on the Client / Server mode, you can directly operate the ciphertext, while ensuring the effectiveness of users’ operations, and the security of user data. Experimental results show that the scheme has good security and good practicability in the storage and operation of Chinese medicine data.

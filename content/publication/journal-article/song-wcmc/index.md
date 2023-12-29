@@ -31,6 +31,7 @@ abstract: Due to the capability of fast deployment and controllable mobility, un
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
+- Path Planning
 - Wireless Sensor Networks
 featured: false
 

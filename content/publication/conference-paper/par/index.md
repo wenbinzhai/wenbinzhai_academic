@@ -29,7 +29,7 @@ publishDate: '2022-11-17T00:00:00Z'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: In *17th International Conference on Wireless Algorithms, Systems, and  Applications (**WASA 2022**)* [CCF C]
+publication: In *the 17th International Conference on Wireless Algorithms, Systems, and  Applications (**WASA 2022**)* [CCF C]
 publication_short: 
 
 abstract: Unmanned Aerial Vehicles (UAVs) have been widely used in both military and civilian scenarios since they are low in cost and flexible in use. They can adapt to a wide variety of dangerous scenarios and complete many tasks the Manned Aerial Vehicles (MAVs) can not undertake. In order to establish connectivity and collect data in large areas, numerous UAVs often cooperate with each other and set up a UAV wireless network. Many multi-hop routing protocols have been proposed to efficiently deliver messages with high delivery ratio and low energy consumption. However, most of them do not consider that the power level of UAVs is adjustable. In this paper, we propose a Power-Aware Routing (PAR) algorithm for UAV networks. PAR utilizes the pre-planned trajectory information of UAVs to compute the encounters at different power levels, and then constructs a power-aware encounter tree to calculate the transmission path with minimum energy consumption from the source to the destination within the delay constraint. Through extensive simulations, we demonstrate that compared with three classic algorithms, PAR significantly reduces the energy consumption and improves the network performance on the basis of ensuring timely delivery of packets.

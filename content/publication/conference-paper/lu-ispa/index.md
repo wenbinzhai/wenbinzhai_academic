@@ -1,26 +1,26 @@
 ---
-title: 'A robust fixed path-based routing scheme for protecting the source location privacy in WSNs'
+title: 'HBC: Combining Lossy and Lossless Hybrid Bilayer Compression Framework on Time-Series Data'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Lingling Hu
+- Wanying Lu
 - Liang Liu
-- Yulei Liu
 - admin
-- Xinmeng Wang
+- Haoyuan Chen
+- Yulei Liu
 
 # Author notes (optional)
 author_notes:
   # - 'Equal contribution'
   # - 'Equal contribution'
 
-date: '2021-12-13T00:00:00Z'
-doi: '10.1109/MSN53354.2021.00023'
+date: '2023-10-18T00:00:00Z'
+doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2021-12-13T00:00:00Z'
+publishDate: '2023-10-18T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -29,17 +29,16 @@ publishDate: '2021-12-13T00:00:00Z'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: In *the 17th International Conference on Mobility, Sensing and Networking (**MSN 2021**)* [CCF C]
+publication: In *the 21th IEEE International Symposium on Parallel and Distributed Processing with Applications (**ISPA 2023**)* [CCF C]
 # publication_short: In *ICW*
 
-abstract: With the development of wireless sensor networks (WSNs), WSNs have been widely used in various fields such as animal habitat detection, military surveillance, etc. This paper focuses on protecting the source location privacy (SLP) in WSNs. Existing algorithms perform poorly in non-uniform networks which are common in reality. In order to address the performance degradation problem of existing algorithms in non-uniform networks, this paper proposes a robust fixed path-based random routing scheme (RFRR), which guarantees the path diversity with certainty in non-uniform networks. In RFRR, the data packets are sent by selecting a routing path that is highly differentiated from each other, which effectively protects SLP and resists the backtracking attack. The experimental results show that RFRR increases the difficulty of the backtracking attack while safekeeping the balance between security and energy consumption.
+abstract:  The popularization and application of the Internet of Things (IoT) technology has brought massive time series data, which puts forward higher requirements for data compression technology. At present, most existing compression methods use only a single lossy or lossless compression algorithm to perform data compression. Furthermore, traditional lossy compression methods usually adopt a fixed error threshold. However, in practical applications, users have different accuracy requirements for time series data in different numerical ranges. In this paper, we design a Hybrid Bilayer Compression (HBC) framework, which consists of a data accuracy-aware lossy compression layer and a data feature-aware lossless compression layer. First, the original time series data is lossy compressed on the top layer of HBC, where the error threshold can be adaptively adjusted according to the user's accuracy requirements. Then, based on the features of lossy compressed data, we use supervised learning to select the optimal lossless compression algorithm from the algorithm pool to further compress the data. Experimental results show that compared with three state-of-the-art compression algorithms, HBC reduces the storage space by 52.1%, 91.66%, and 92.27%, respectively.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Privacy Protection
-- Wireless Sensor Networks
+- Databases
 
 # Display this page in the Featured widget?
 featured: false
@@ -49,12 +48,12 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'Hu-MSN.pdf'
+url_pdf: 'Lu-ISPA.pdf'
 # url_code: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 # url_dataset: 'https://github.com/wowchemy/wowchemy-hugo-themes'
-# url_poster: ''
+url_poster: 'Lu_ISPA_Poster.pdf'
 # url_project: ''
-url_slides: 'Hu_MSN_Slides.pptx'
+url_slides: ''
 # url_source: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 # url_video: 'https://youtube.com'
 

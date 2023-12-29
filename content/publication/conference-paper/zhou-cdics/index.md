@@ -1,26 +1,26 @@
 ---
-title: 'A robust fixed path-based routing scheme for protecting the source location privacy in WSNs'
+title: 'Power-Aware Path Planning for Vehicle-Assisted Heterogeneous UAVs in Mobile Crowd Sensing'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Lingling Hu
+- Zixiao Zhou
 - Liang Liu
-- Yulei Liu
 - admin
-- Xinmeng Wang
+- Jiancheng Song
+- Yulei Liu
 
 # Author notes (optional)
 author_notes:
   # - 'Equal contribution'
   # - 'Equal contribution'
 
-date: '2021-12-13T00:00:00Z'
-doi: '10.1109/MSN53354.2021.00023'
+date: '2023-10-26T00:00:00Z'
+doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2021-12-13T00:00:00Z'
+publishDate: '2023-10-26T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -29,18 +29,16 @@ publishDate: '2021-12-13T00:00:00Z'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: In *the 17th International Conference on Mobility, Sensing and Networking (**MSN 2021**)* [CCF C]
+publication: In *2023 International Conference on Data, Information and Computing Science (**CDICS 2023**)*
 # publication_short: In *ICW*
 
-abstract: With the development of wireless sensor networks (WSNs), WSNs have been widely used in various fields such as animal habitat detection, military surveillance, etc. This paper focuses on protecting the source location privacy (SLP) in WSNs. Existing algorithms perform poorly in non-uniform networks which are common in reality. In order to address the performance degradation problem of existing algorithms in non-uniform networks, this paper proposes a robust fixed path-based random routing scheme (RFRR), which guarantees the path diversity with certainty in non-uniform networks. In RFRR, the data packets are sent by selecting a routing path that is highly differentiated from each other, which effectively protects SLP and resists the backtracking attack. The experimental results show that RFRR increases the difficulty of the backtracking attack while safekeeping the balance between security and energy consumption.
-
+abstract: With the development of microelectronics in recent years, the performance of unmanned aerial vehicles (UAVs) has been improving continuously. Modern rotary-wing UAVs possess high maneuverability and agility, making them widely applied in mobile crowd sensing (MCS). In order to solve the shortcoming of limited battery capacity and expand the mission area of UAVs, the ground vehicle is introduced as a platform for transportation, launch, recycle, and recharging UAVs. However, existing studies only consider the case of vehicle-assisted homogeneous UAVs. In reality, due to different sensing requirements and UAV hardware, vehicles may need to assist heterogeneous UAVs with different sensors, flight speeds, and battery capacities. In this paper, we formalize and study the vehicle-assisted heterogeneous UAVs path planning problem, and decompose it into three sub-problems, namely detection point allocation, UAV path planning, and vehicle route planning. In order to solve the above problems, we proposes an efficient power-aware path planning algorithm for vehicle-assisted multi-heterogeneous-UAV (VHUPA). In VHUPA, we first design the genetic algorithm to find the allocation scheme of the detection points, then plan flight paths of UAVs at each parking spot according to the allocation scheme, and finally optimize the route of the ground vehicle according to the power consumption of UAVs to minimize the waiting time for charging. Performance evaluation demonstrates that time cost of the VHUPA solution is reduced by more than 21% compared with the existing algorithm.
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Privacy Protection
 - Wireless Sensor Networks
-
+- Plan Planning
 # Display this page in the Featured widget?
 featured: false
 
@@ -49,12 +47,12 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'Hu-MSN.pdf'
+url_pdf: 'Zhou-CDICS.pdf'
 # url_code: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 # url_dataset: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 # url_poster: ''
 # url_project: ''
-url_slides: 'Hu_MSN_Slides.pptx'
+url_slides: ''
 # url_source: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 # url_video: 'https://youtube.com'
 
